@@ -3,68 +3,76 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+
     <title>Student Success Portal</title>
 </head>
 <body>
-    <a href = "#main-content">Skip to Main Content</a>
+    <div class="skip"><a href="#main-content">Skip to Main Content</a></div>
     <header>
-        <img src="images/UMSI_signature_vertical_informal_solidblue.jpg" alt="UMSI Logo">
         <nav>
-            <ul>
-                <li><a href = "index.html">Home</a></li>
-                <li><a href = "advising_contact_list.html">MSI Contact List</a></li>
-                <li><a href = "maize_blue_page.html">Maize & Blue Cupboard</a></li>
+            <a href = "index.html"><img id="logo" src="/images/UMSI_signature_vertical_informal_solidblue.jpg" alt="UMSI Logo"></a>
+            <ul id=nav-list>
+                <li><a href = "index.html" class="active">Home</a></li>
                 <li><a href = "caps_page.html">Counseling and Psychological Services (CAPS)</a></li>
+                <li><a href = "maize_blue_page.html">Maize & Blue Cupboard</a></li>
+                <li><a href = "advising_contact_list.html">MSI Contact List</a></li>
             </ul>
         </nav>
         <h1>Student Success Portal</h1>
-
     </header>
+
     <main id="main-content">
-        <section>
+        <div class="introduction">
             <h2>Welcome to the UM Grad Success Navigator</h2>
-            <p> As a Master's student, you have access to a wide range of resources designed to support your academic journey and overall well-being. Whether you need help with scheduling courses, meal planning, mental health support, or simply want to know who to contact for specific services, we're here to help.</p>
-            <p>This guide is set up to help you be successul inside and outside of the classroom.
-        </section>
+            <p> As a Master's student, you have access to a wide range of resources designed to support your academic journey and overall well-being. Whether you need help with scheduling courses, meal planning, mental health support, or simply want to know who to contact for specific services, we're here to help.This guide is set up to help you be successul inside and outside of the classroom.
+        </div>
 
-        <section>
-            <h2>Physical Health</h2>
-            <p>Keeping your body healthy is essential for success. The University of Michigan offers numerous resources to help you stay in top physical condition:</p>
-            <article>
-                <h3>University Health Service (UHS)</h3>
-                <figure>
-                    <img src="images/UHS.jpg" alt="University Health Services building">
-                    <figcaption>University Health Services Building</figcaption>
-                </figure>
-                <p>University Health Service (UHS): Access comprehensive medical care, including routine check-ups, vaccinations, and specialist referrals.</p>
-            </article>
-        </section>
-
-        <section>
-            <h2>Mental Health</h2>
+        <div class="homepage-section">
             <img src="images/MCOMMONS_DSC01659.jpg" alt="a library with students studying at desks. Lights are on ontop of the desks. Rows of books line the walls.">
-            <p>Maintaining your mental well-being is crucial for thriving in graduate school.</p>
-            <div>
+            <div class="homepage-content">
+                <h2>Mental Health</h2>
+                <h3>Maintaining your mental well-being is crucial for thriving in graduate school.</h3>
                 <p> Counseling and Psychological Services (CAPS) provides access to individual counseling, group therapy, workshops, and crisis intervention services.<br>
-                Learn more about CAPS services and how to set up an appointment <a href = "caps_page.html">here</a>.</p>
+                    Learn more about CAPS services and how to set up an appointment.
+                </p>
+                <p class="button">
+                    <a href=caps_page.html>CAPS Services</a>
+                </p>
             </div>
-        </section>
+        </div>
 
-
-        <section>
-            <h2>Life Outside the Classroom</h2>
+        <div class="homepage-section">
             <img src="images/UMSI_Fall_2019_16.jpg" alt="campus brick buildings in the distance. Red and orange autumn leaves and green trees in the foreground.">
-            <p>Graduate school is more than just academics — it's important to cultivate a balanced life.<br>
-                Maize & Blue Cupboard is a free food and necessities pantry designed to help students live a healthy life outside of school. Schedule an appointment and shop for groceries such as canned food, frozen meat, bread, fresh produce, and dairy items. Learn more <a href="maize_blue_page.html">here</a>.</p>
-        </section>
+            <div class="homepage-content">
+                <h2>Access Groceries and Necessities</h2>
+                <h3>Graduate school is more than just academics — it's important to cultivate a balanced life.</h3>
+                <p>Maize & Blue Cupboard is a free food and necessities pantry designed to help students live a healthy life outside of school. Schedule an appointment and shop for groceries such as canned food, frozen meat, bread, fresh produce, and dairy items. Learn more about
+                </p>
+                <p class="button">
+                    <a href=maize_blue_page.html>Maize & Blue Cupboard</a>
+                </p>
+            </div>
+        </div>
 
-        <section>
-            <h2>Have a question and don't know where to start?</h2>
-            <p>UMich offers a wide range of staff and resources to help you with a variety of needs. If you have a question or concern, but aren't sure who to contact, view our list of <a href="advising_contact_list.html">UMSI contacts</a> or email <a href="mailto:umsi.advising.msi@umich.edu">umsi.advising.msi@umich.edu</a> and we can help connect you with the right people.</p>
-        </section>
+        <div class="homepage-section">
+            <div class="homepage-content">
+                <h2>Have a question and don't know where to start?</h2>
+                <p>UMich offers a wide range of staff and resources to help you with a variety of needs. We want to make sure you are able to utilize them all to your benefit. If you have a question, but aren't sure who to contact, view our list of UMSI contacts or email us directly and we can help connect you with the right people.</p>
+                <p class="button">
+                    <a href=advising_contact_list.html>UMSI Contact List</a>
+                </p>
+                <p class="button">
+                    <a href="mailto:umsi.advising.msi@umich.edu">Email UMSI Advising</a>
+                </p>
+            </div>
+        </div>
+
     </main>
     <footer>
-        <p>MSI Academic Advising | <a href="https://sites.google.com/umich.edu/msiacademicadvising/student-support-resources">UMSI Academic Advising </a></p>
-        </footer>
+        <p><a href="https://sites.google.com/umich.edu/msiacademicadvising/student-support-resources">UMSI Academic Advising </a></p>
+    </footer>
 </body>
 </html>
