@@ -84,7 +84,7 @@ footer img, footer #footer-link, footer .address {
     grid-column: 2 / 3;
 }
 
-#footer-link{
+footer #footer-link{
     text-decoration: underline;
     padding: 20px 0;
 }
