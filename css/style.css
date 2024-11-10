@@ -210,6 +210,7 @@ footer img{
     text-align: center;
     background: rgba(255, 255, 255, 0.738);
     padding: 20px 40px;
+    grid-column: 2/3;
 }
 
 .services{
