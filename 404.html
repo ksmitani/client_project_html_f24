@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>404 Error</title>
+</head>
+<body>
+    <div class="skip"><a href="#main-content">Skip to Main Content</a></div>
+    <header>
+        <nav>
+            <a href = "index.html"><img id="logo" src="images/UMSI_signature_vertical_informal_solidblue.jpg" alt="UMSI Logo"></a>
+            <ul id=nav-list>
+                <li><a href = "index.html">Home</a></li>
+                <li><a href = "caps_page.html">Counseling and Psychological Services (CAPS)</a></li>
+                <li><a href = "maize_blue_page.html">Maize & Blue Cupboard</a></li>
+                <li><a href = "advising_contact_list.html">MSI Contact List</a></li>
+            </ul>
+        </nav>
+        <h1>Page not found</h1>
+    </header>
+
+    <main id="main-content">
+        <div class = "page-not-found">
+            <h2>Oops, we couldn't find the page you were looking for.</h2>
+            <p class="button">
+                <a href=index.html>Return to Home</a>
+            </p>
+            <img src="images/404_image.png" alt="">
+        </div>
+    </main>
+    
+    <footer>
+        <img src="images/UMSI_signature_vertical_informal_solidblue.jpg" alt="UMSI Logo">
+        <p id="footer-link"><a href="https://sites.google.com/umich.edu/msiacademicadvising/student-support-resources">UMSI Academic Advising</a> 2024</p>
+        <div class="address">
+            <p>School of Information<br>
+                University of Michigan<br>
+                105 S State St.<br>
+                Ann Arbor, MI 48109-1285
+            </p>
+            <p>© Copyrights <span id="year"></span> by University of Michigan. All rights reserved.</p>
+        </div>
+    </footer>
+    <script>
+        document.getElementById("year").innerHTML = new Date().getFullYear();
+    </script>
+</body>
